@@ -7,6 +7,13 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <form>
+      <label for="start-date"> StartDate </label>
+      <input type="text" name="startDate" id="startDate" placeholder="YYYY-MM-DD">
+      <label for="end-date"> EndDate </label>
+      <input type="text" name="endDate" id="endDate" placeholder="YYYY-MM-DD">
+      <button type="button" name="search">Search</button>
+    </form>
     <canvas id="myChart" width="400" height="400"></canvas>
     <script src="/jquery/dist/jquery.min.js"></script>
     <script src="/chart.js/dist/Chart.min.js"></script>
